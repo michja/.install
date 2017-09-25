@@ -26,6 +26,7 @@ git submodule update --init
 ./autogen.sh
 make
 make install
+ldconfig
 
 cd ~/Downloads
 
